@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.randa.myfirstapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirstApplication">
+        <activity
+            android:name=".Dagger2.DagerrActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Dagger2.DaggerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LifeCylce.LifeSecond"
+            android:exported="true" />
+        <activity
+            android:name=".LifeCylce.Life"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Notifications.Note"
+            android:exported="true" />
+        <activity
+            android:name=".ViewBinding.BindTest"
+            android:exported="true" />
+        <activity
+            android:name=".AsyncTaskExample.AsyncActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AsyncTaskExample.AsyncTaskActivity"
+            android:exported="true" />
+        <activity
+            android:name=".HandlerNew.HandlerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RoomDatabase.PersonActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Thread.ThreadTest"
+            android:exported="true" />
+        <activity
+            android:name=".Room.EmployeeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExternalDataBase.DatabaseLogin"
+            android:exported="true" />
+        <activity android:name=".SharedPreferrence" />
+        <activity android:name=".CaptureImage" />
+        <activity android:name=".Dialog" />
+        <activity android:name=".Cards" />
+        <activity android:name=".DropDownMenu" />
+        <activity android:name=".NavigationBottom" />
+        <activity android:name=".DateRange" />
+        <activity android:name=".DatePicker" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
